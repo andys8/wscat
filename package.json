@@ -1,0 +1,26 @@
+{
+  "name": "@andys8/wscat",
+  "version": "1.0.2",
+  "description": "Websocket command line listener using elm (experimental)",
+  "main": "index.js",
+  "scripts": {
+    "build": "elm-make --output dist/main.js src/*.elm",
+    "prepublish": "npm run build"
+  },
+  "bin": {
+    "wscat": "index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/andys8/wscat.git"
+  },
+  "author": "andys8",
+  "license": "BSD-3-Clause",
+  "bugs": {
+    "url": "https://github.com/andys8/wscat/issues"
+  },
+  "homepage": "https://github.com/andys8/wscat#readme",
+  "dependencies": {
+    "websocket": "1.0.24"
+  }
+}
