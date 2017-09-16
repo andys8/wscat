@@ -1,6 +1,6 @@
 {
   "name": "@andys8/wscat",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "description": "Websocket command line listener using elm (experimental)",
   "main": "index.js",
   "scripts": {
